@@ -1,0 +1,896 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_65ddb\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_65ddb.dir\build.make /nologo -L                  CMakeFiles\cmTC_65ddb.dir\build
+Building C object CMakeFiles/cmTC_65ddb.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_65ddb.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_65ddb.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_65ddb.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\cckAbnfa.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_65ddb.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_65ddb.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\cckAbnfa.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_65ddb.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_65ddb.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_65ddb.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_65ddb.dir/objects.a @CMakeFiles\cmTC_65ddb.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_65ddb.dir/objects.a -Wl,--no-whole-archive -o cmTC_65ddb.exe -Wl,--out-implib,libcmTC_65ddb.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_65ddb.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\ccXjHmEe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_65ddb.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_65ddb.dir/objects.a --no-whole-archive --out-implib libcmTC_65ddb.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_103c5\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_103c5.dir\build.make /nologo -L                  CMakeFiles\cmTC_103c5.dir\build
+Building C object CMakeFiles/cmTC_103c5.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_103c5.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_103c5.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_103c5.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_103c5.dir/objects.a @CMakeFiles\cmTC_103c5.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_103c5.dir/objects.a -Wl,--no-whole-archive -o cmTC_103c5.exe -Wl,--out-implib,libcmTC_103c5.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_e7a4c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e7a4c.dir\build.make /nologo -L                  CMakeFiles\cmTC_e7a4c.dir\build
+Building C object CMakeFiles/cmTC_e7a4c.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_e7a4c.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e7a4c.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_e7a4c.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\ccgeHb6d.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e7a4c.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_e7a4c.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\ccgeHb6d.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e7a4c.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_e7a4c.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e7a4c.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_e7a4c.dir/objects.a @CMakeFiles\cmTC_e7a4c.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_e7a4c.dir/objects.a -Wl,--no-whole-archive -o cmTC_e7a4c.exe -Wl,--out-implib,libcmTC_e7a4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7a4c.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\cc3yJFdG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_e7a4c.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_e7a4c.dir/objects.a --no-whole-archive --out-implib libcmTC_e7a4c.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_57afd\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_57afd.dir\build.make /nologo -L                  CMakeFiles\cmTC_57afd.dir\build
+Building C object CMakeFiles/cmTC_57afd.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_57afd.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_57afd.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_57afd.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_57afd.dir/objects.a @CMakeFiles\cmTC_57afd.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_57afd.dir/objects.a -Wl,--no-whole-archive -o cmTC_57afd.exe -Wl,--out-implib,libcmTC_57afd.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_eb3b6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_eb3b6.dir\build.make /nologo -L                  CMakeFiles\cmTC_eb3b6.dir\build
+Building C object CMakeFiles/cmTC_eb3b6.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_eb3b6.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eb3b6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_eb3b6.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\ccxmhPD9.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eb3b6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_eb3b6.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\ccxmhPD9.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eb3b6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_eb3b6.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_eb3b6.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_eb3b6.dir/objects.a @CMakeFiles\cmTC_eb3b6.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_eb3b6.dir/objects.a -Wl,--no-whole-archive -o cmTC_eb3b6.exe -Wl,--out-implib,libcmTC_eb3b6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb3b6.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\ccIju4Wt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_eb3b6.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_eb3b6.dir/objects.a --no-whole-archive --out-implib libcmTC_eb3b6.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_4b737\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_4b737.dir\build.make /nologo -L                  CMakeFiles\cmTC_4b737.dir\build
+Building C object CMakeFiles/cmTC_4b737.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_4b737.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_4b737.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4b737.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_4b737.dir/objects.a @CMakeFiles\cmTC_4b737.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_4b737.dir/objects.a -Wl,--no-whole-archive -o cmTC_4b737.exe -Wl,--out-implib,libcmTC_4b737.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_74267\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_74267.dir\build.make /nologo -L                  CMakeFiles\cmTC_74267.dir\build
+Building C object CMakeFiles/cmTC_74267.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_74267.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_74267.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_74267.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\ccLNEKz4.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_74267.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_74267.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\ccLNEKz4.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_74267.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_74267.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_74267.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_74267.dir/objects.a @CMakeFiles\cmTC_74267.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_74267.dir/objects.a -Wl,--no-whole-archive -o cmTC_74267.exe -Wl,--out-implib,libcmTC_74267.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_74267.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\ccyaQnpo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_74267.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_74267.dir/objects.a --no-whole-archive --out-implib libcmTC_74267.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_5b5d2\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_5b5d2.dir\build.make /nologo -L                  CMakeFiles\cmTC_5b5d2.dir\build
+Building C object CMakeFiles/cmTC_5b5d2.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_5b5d2.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_5b5d2.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5b5d2.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_5b5d2.dir/objects.a @CMakeFiles\cmTC_5b5d2.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_5b5d2.dir/objects.a -Wl,--no-whole-archive -o cmTC_5b5d2.exe -Wl,--out-implib,libcmTC_5b5d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_bfe93\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_bfe93.dir\build.make /nologo -L                  CMakeFiles\cmTC_bfe93.dir\build
+Building C object CMakeFiles/cmTC_bfe93.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_bfe93.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bfe93.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_bfe93.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\cclSxodp.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bfe93.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_bfe93.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\cclSxodp.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bfe93.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_bfe93.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bfe93.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_bfe93.dir/objects.a @CMakeFiles\cmTC_bfe93.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_bfe93.dir/objects.a -Wl,--no-whole-archive -o cmTC_bfe93.exe -Wl,--out-implib,libcmTC_bfe93.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfe93.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\cchOIAzU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_bfe93.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_bfe93.dir/objects.a --no-whole-archive --out-implib libcmTC_bfe93.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_d7dab\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_d7dab.dir\build.make /nologo -L                  CMakeFiles\cmTC_d7dab.dir\build
+Building C object CMakeFiles/cmTC_d7dab.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_d7dab.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_d7dab.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d7dab.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_d7dab.dir/objects.a @CMakeFiles\cmTC_d7dab.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_d7dab.dir/objects.a -Wl,--no-whole-archive -o cmTC_d7dab.exe -Wl,--out-implib,libcmTC_d7dab.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_bf7b8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_bf7b8.dir\build.make /nologo -L                  CMakeFiles\cmTC_bf7b8.dir\build
+Building C object CMakeFiles/cmTC_bf7b8.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_bf7b8.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bf7b8.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_bf7b8.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\ccmuMa44.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bf7b8.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_bf7b8.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\ccmuMa44.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bf7b8.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_bf7b8.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bf7b8.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_bf7b8.dir/objects.a @CMakeFiles\cmTC_bf7b8.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_bf7b8.dir/objects.a -Wl,--no-whole-archive -o cmTC_bf7b8.exe -Wl,--out-implib,libcmTC_bf7b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf7b8.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\ccpt0Ypn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_bf7b8.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_bf7b8.dir/objects.a --no-whole-archive --out-implib libcmTC_bf7b8.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_8aab6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_8aab6.dir\build.make /nologo -L                  CMakeFiles\cmTC_8aab6.dir\build
+Building C object CMakeFiles/cmTC_8aab6.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_8aab6.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_8aab6.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8aab6.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_8aab6.dir/objects.a @CMakeFiles\cmTC_8aab6.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_8aab6.dir/objects.a -Wl,--no-whole-archive -o cmTC_8aab6.exe -Wl,--out-implib,libcmTC_8aab6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_52b75\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_52b75.dir\build.make /nologo -L                  CMakeFiles\cmTC_52b75.dir\build
+Building C object CMakeFiles/cmTC_52b75.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_52b75.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_52b75.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_52b75.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\ccTvAiEe.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_52b75.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_52b75.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\ccTvAiEe.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_52b75.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_52b75.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_52b75.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_52b75.dir/objects.a @CMakeFiles\cmTC_52b75.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_52b75.dir/objects.a -Wl,--no-whole-archive -o cmTC_52b75.exe -Wl,--out-implib,libcmTC_52b75.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52b75.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\ccmcpjfz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_52b75.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_52b75.dir/objects.a --no-whole-archive --out-implib libcmTC_52b75.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_2abb2\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_2abb2.dir\build.make /nologo -L                  CMakeFiles\cmTC_2abb2.dir\build
+Building C object CMakeFiles/cmTC_2abb2.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_2abb2.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_2abb2.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2abb2.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_2abb2.dir/objects.a @CMakeFiles\cmTC_2abb2.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_2abb2.dir/objects.a -Wl,--no-whole-archive -o cmTC_2abb2.exe -Wl,--out-implib,libcmTC_2abb2.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_334c0\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_334c0.dir\build.make /nologo -L                  CMakeFiles\cmTC_334c0.dir\build
+Building C object CMakeFiles/cmTC_334c0.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_334c0.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_334c0.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_334c0.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\SHUBHA~1\AppData\Local\Temp\ccoalBD3.s
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib/gcc/arm-none-eabi/10.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102020~1/lib/gcc/../../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed
+ c:\progra~2\gnuarm~1\102020~1\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_334c0.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_334c0.dir\CMakeCCompilerABI.c.obj C:\Users\SHUBHA~1\AppData\Local\Temp\ccoalBD3.s
+GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_334c0.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_334c0.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_334c0.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_334c0.dir/objects.a @CMakeFiles\cmTC_334c0.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_334c0.dir/objects.a -Wl,--no-whole-archive -o cmTC_334c0.exe -Wl,--out-implib,libcmTC_334c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-48_20201124_1606180641/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10-2020-q4-major' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_334c0.exe' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SHUBHA~1\AppData\Local\Temp\ccl8fscn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=c:\progra~2\gnuarm~1\102020~1\bin\../arm-none-eabi -X -o cmTC_334c0.exe c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crti.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtbegin.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1 -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102020~1/bin/../arm-none-eabi/lib --whole-archive CMakeFiles\cmTC_334c0.dir/objects.a --no-whole-archive --out-implib libcmTC_334c0.dll.a --major-image-version 0 --minor-image-version 0 --start-group -lgcc -lc --end-group c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtend.o c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/crtn.o
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/pico/pico-ssd1306-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_fe035\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_fe035.dir\build.make /nologo -L                  CMakeFiles\cmTC_fe035.dir\build
+Building C object CMakeFiles/cmTC_fe035.dir/testCCompiler.c.obj
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_fe035.dir\testCCompiler.c.obj -c C:\pico\pico-ssd1306-master\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_fe035.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_fe035.dir/objects.a
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE cr CMakeFiles\cmTC_fe035.dir/objects.a @CMakeFiles\cmTC_fe035.dir\objects1.rsp
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_fe035.dir/objects.a -Wl,--no-whole-archive -o cmTC_fe035.exe -Wl,--out-implib,libcmTC_fe035.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+

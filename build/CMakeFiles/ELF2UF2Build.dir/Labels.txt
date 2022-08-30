@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+C:/pico/snake_game/build/CMakeFiles/ELF2UF2Build
+C:/pico/snake_game/build/CMakeFiles/ELF2UF2Build.rule
+C:/pico/snake_game/build/CMakeFiles/ELF2UF2Build-complete.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+C:/pico/snake_game/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
